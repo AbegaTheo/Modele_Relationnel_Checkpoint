@@ -8,35 +8,48 @@ Ce document présente le modèle relationnel obtenu après conversion du diagram
 
 ### TYPE
 
-**- Type_Id :** Identifiant unique du type (Clé primaire) /n
+**- Type_Id :** Identifiant unique du type (Clé primaire)
+
 **- Type_Name :** Nom du type d'hôtel
 
 ### HOTEL
 
 **- Hotel_Id :** Identifiant unique de l'hôtel (Clé primaire)
+
 **- Hotel_name :** Nom de l'hôtel
+
 **- Type_Id :** Référence au type d'hôtel (Clé étrangère vers TYPE)
 
 ### CATEGORY
 
 **- Category_Id :** Identifiant unique de la catégorie (Clé primaire)
+
 **- Category_Name :** Nom de la catégorie
+
 **- Price :** Prix de la chambre dans cette catégorie
+
 **- Beds_numbers :** Nombre de lits disponibles
 
 ### ROOM
 
 **- Room_Id :** Identifiant unique de la chambre (Clé primaire)
+
 **- Hotel_Id :** Référence à l'hôtel auquel appartient la chambre (Clé étrangère vers HOTEL)
+
 **- Floor :** Étage où se trouve la chambre
+
 **- Category_Id :** Référence à la catégorie de la chambre (Clé étrangère vers CATEGORY)
 
 ### EMPLOYEE
 
 **- Employee_Id :** Identifiant unique de l'employé (Clé primaire)
+
 **- Employee_Name :** Nom de l'employé
+
 **- Employee_Speciality :** Spécialité ou fonction de l'employé
+
 **- Hotel_Id :** Référence à l'hôtel où travaille l'employé (Clé étrangère vers HOTEL)
+
 **- Superior_Id :** Référence au supérieur hiérarchique (Clé étrangère auto-référencée vers EMPLOYEE)
 
 ---
