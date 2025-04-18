@@ -8,7 +8,7 @@ Ce document présente le modèle relationnel obtenu après conversion du diagram
 
 ### TYPE
 
-**- Type_Id :** Identifiant unique du type (Clé primaire)
+**- Type_Id :** Identifiant unique du type (Clé primaire) /n
 **- Type_Name :** Nom du type d'hôtel
 
 ### HOTEL
