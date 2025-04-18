@@ -87,9 +87,13 @@ Pour réaliser cette conversion, j'ai suivi les étapes suivantes :
 ## Contenu du dépôt
 
 **README.md:** Ce fichier explicatif
+
 **schema.sql:** Script SQL de création des tables selon le modèle relationnel
+
 **Modele_ER_initial.png:** Image du diagramme ER initial
+
 **Modele_relationnel.md:** Description détaillée du modèle relationnel
+
 **Modele_Relationnel_Diagram.png:** Image du diagramme du modele relationel
 
 ---
@@ -97,5 +101,7 @@ Pour réaliser cette conversion, j'ai suivi les étapes suivantes :
 ## Outils utilisés
 
 **VS Code** pour l'édition des fichiers
+
 **GitHub** pour le versionning
+
 **Mermaid** pour la représentation du modèle relationnel
